@@ -1,0 +1,85 @@
+.red{
+    background-color: rgb(231, 134, 134);
+}
+.nav container{
+text-align: center;
+align-items: center;
+}
+img{
+    width: 100%;
+}
+section{
+    padding: 0 3rem;
+}
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.shop{
+    margin-top: 2rem;
+}
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    gap: 1.5rem;
+}
+.product-box{
+    position: relative;
+}
+.product-box:hover{
+    padding: 10px;
+    border: 1px solid yellow;
+    transition: 0.2s;
+}
+.product-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+.product-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+i{
+    float: right;
+    font-size: 1.3rem;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 2px 4px 4px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+.logo{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+#icon{
+    font-size: 1.8rem;
+}
+.serial-number{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin-bottom: 0.5rem;
+}
+button{
+    background-color:blueviolet;
+}
